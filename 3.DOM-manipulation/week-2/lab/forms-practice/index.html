@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fongi Folio</title>
+</head>
+<body>
+    <header>
+        <h1>The Latest Mushrooms</h1>
+    </header>
+    <main>
+        <section class="input-container">
+            <h3>Add a Mushroom</h3>
+            <form>
+                <label for="type">Type:</label>
+                <input type="text" name="mushroomType" id="type">
+                <label for="region">Region:</label>
+                <input type="text" name="mushroomRegion" id="region">
+                <label for="isEdible">Is Edible?:</label>
+                <select name="isEdible" id="isEdible">
+                    <option value="true">yes</option>
+                    <option value="false">no</option>
+                </select>
+                <input type="submit" value="Add Mushroom">
+            </form>
+        </section>
+        <section class="fungi-container">
+            <h3>Fungi Folio</h3>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

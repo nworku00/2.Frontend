@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>context menu</title>
+    </head>
+    <body>
+        <!-- HTML goes here -->
+        <button>counter</button>
+        <script>
+            // JavaScript goes here
+            let button = document.querySelector('button')
+            button.addEventListener('contextmenu',()=>{
+                window.alert('context click')
+            })
+        </script>
+    </body>
+</html>

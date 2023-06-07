@@ -1,0 +1,58 @@
+body {
+    background-color: #e5e5e5;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+}
+.white {
+    border: none;
+    height: 3px;
+    background: white;
+    margin-bottom: 50px;
+}
+.one {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+@media screen and (min-width: 1000px) {
+    .mount {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .mount {
+        width: 300px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .body > img {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .body > img {
+        width: 200px;
+    }
+}
+.discription {
+    font-size: 13px;
+    color: grey;
+}
+.caption {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 30px;
+}
+.caption-2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 20px;
+}
+.lore {
+    color: gray;
+}
+.name {
+    font-size: 13px;
+    font-weight: 700;
+}

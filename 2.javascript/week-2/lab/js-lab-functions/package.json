@@ -1,0 +1,12 @@
+{
+  "name": "js-lab-functions",
+  "version": "1.0.0",
+  "description": "In this lab, you are going to practice the basics of writing and calling functions using JavaScript.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://t4.ftcdn.net/jpg/04/20/41/95/360_F_420419550_sP95583pQ4iWLj4naXd9lZ2qZK1XW4RF.jpg);
+}
+header {
+    text-align: center;
+    font-size: 50px;
+    background-color: lightgray;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 40px;
+}
+a {
+    color: black;
+}
+
+img {
+    float: left;
+    height: 30%;
+    width: 30%;
+}
+p {
+    background-color: lightgray;
+    font-size: 50px;
+}

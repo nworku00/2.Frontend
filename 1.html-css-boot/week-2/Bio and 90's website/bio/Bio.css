@@ -1,0 +1,29 @@
+body {
+    background-image: url(https://365atlantatraveler.com/wp-content/uploads/2022/12/cHotelClermont-1278x850.jpeg);
+    background-size: cover;
+}
+header {
+    text-align: center;
+}
+footer {
+    font-size: 30px;
+}
+
+img {
+    border: 10px solid black;
+}
+header,
+footer,
+main {
+    font-family: "Tilt Neon", cursive;
+    background-color: white;
+}
+.hub-link {
+    color: black;
+}
+.twit-link {
+    color: blue;
+}
+.insta-link {
+    color: red;
+}

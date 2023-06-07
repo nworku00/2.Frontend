@@ -1,0 +1,96 @@
+body {
+    font-family: "Manrope", sans-serif;
+    flex-direction: column;
+}
+main, footer{
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.logo {
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin: 15px;
+}
+.black-box {
+    position: relative;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(writeology-html-css-lab/digital-management.jpg);
+    background-size: contain;
+    height: 335px;
+    width: auto;
+    margin-top: 40px;
+}
+.black-box p {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+}
+#white-box {
+    padding: 12px;
+    font-size: 14px;
+    margin-bottom: 150px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-weight: 700;
+}
+#ways {
+    font-size: 20px;
+    margin-bottom: 70px;
+    font-weight: 900;
+}
+#nmdt {
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.first {
+    margin-top: 35px;
+}
+.tips {
+    color: gray;
+    font-weight: 600;
+    font-size: 18px;
+}
+.how {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: -10px;
+}
+img {
+    position: relative;
+    border-radius: 10px;
+    height: 305px;
+}
+.lorem {
+    color: gray;
+    font-size: 15px;
+}
+footer {
+    margin-top: 50px;
+}
+.ssearch {
+    min-height: 64px;
+    width: 100%;
+    border-radius: 5px;
+    color: lightgrey;
+    border-style: solid ;
+    border-color: lightgray ;
+    padding-left: 16px;
+}
+.trg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.t {
+    background-color: lightgray;
+    padding: 12px;
+    font-size: 14px;
+    margin-bottom: 150px;
+    border-radius: 5px;
+    font-weight: 700;
+}

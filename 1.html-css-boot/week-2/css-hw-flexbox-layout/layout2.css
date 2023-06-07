@@ -1,0 +1,21 @@
+header, footer {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+}
+#one {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+#two {
+    flex: 1;
+    height: 500px;
+    border: 1px solid black;
+    background-color: brown;
+}

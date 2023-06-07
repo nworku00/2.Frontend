@@ -1,0 +1,13 @@
+div.container, div.container-fluid{
+    background: purple;
+    padding: 30px;
+}
+
+div.row{
+    background-color: tomato;
+    padding: 10px;
+    margin: 20px;
+    color: white; 
+    font-size: 30px;
+    font-weight: bold;
+}
